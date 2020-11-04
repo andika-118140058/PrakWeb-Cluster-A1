@@ -1,0 +1,35 @@
+.wrapper{
+	Background-color: #f0f8ff;
+	width: 784px;
+	margin: 10px auto;
+}
+.wrapper .header{
+	Background-color: red;
+	width: 100%;
+	height: 200px;
+}
+.clear{
+	clear: both;
+}
+.wrapper .daftar-kolom{
+	height: 300px;
+}
+.wrapper .daftar-kolom .kolom1{
+	Background-color: yellow;
+	float: left;
+	width: 180px;
+	height: 100%;
+	padding: 10px;
+}
+.wrapper .daftar-kolom .kolom2{
+	Background-color: pink;
+	float: left;
+	height: 100%;
+	width: 564px;
+	padding: 10px;
+}
+.wrapper .footer{
+	width: 100%;
+	height: 100px;
+	text-align: center;
+}
