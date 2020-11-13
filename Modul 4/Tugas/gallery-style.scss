@@ -1,0 +1,18 @@
+$pixel: 1px;
+.gallery{
+	margin: 5*$pixel;
+	border: $pixel solid #ccc;
+	float: left;
+	width: 180*$pixel;
+	img{
+		width: 100%;
+		height: auto;
+	}
+}
+.gallery:hover{
+	border: $pixel solid #777;
+}
+.desc{
+	padding: 15*$pixel;
+	text-align: center;
+}

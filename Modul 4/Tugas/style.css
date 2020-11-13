@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "segoe ui", arial, tahoma, sans-serif;
+}
+
+body {
+  background-color: #DDDDDD;
+}
+
+#wrapper {
+  width: 780px;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #000002;
+}
+
+#header {
+  background: url(images/header.jpg) repeat-x #555;
+  height: 70px;
+  width: 100%;
+  padding: 5px;
+  margin: 20px 0;
+  overflow: hidden;
+}
+#header img {
+  padding-left: 10px;
+  width: 75px;
+  height: 75px;
+}
+
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+#navbar li {
+  float: right;
+  margin-right: 20px;
+}
+#navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+#navbar li a:hover {
+  background-color: #5fdfff;
+}
+
+#sidebar {
+  float: left;
+  height: auto;
+  width: 300px;
+  background-color: #f1f1f1;
+  padding-top: 10px;
+  padding-bottom: 300px;
+}
+#sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  width: 200px;
+  text-align: center;
+  background-color: #f1f1f1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 0;
+  margin-right: 0;
+}
+#sidebar li a {
+  display: block;
+  color: #000;
+  padding: 10px 16px;
+  width: 250px;
+  text-decoration: none;
+}
+#sidebar li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+#content {
+  padding-left: 10px;
+  background-color: #fff2bc;
+  color: #806f66;
+  float: right;
+  width: 470px;
+  height: 555px;
+}
+
+#footer {
+  clear: both;
+  margin: 20px 0;
+  text-align: center;
+  background-color: #ff5a0b;
+  padding: 5px;
+  color: #383636;
+}
+
+/*# sourceMappingURL=style.css.map */
