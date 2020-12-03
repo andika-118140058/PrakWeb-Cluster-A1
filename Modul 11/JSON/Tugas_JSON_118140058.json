@@ -1,0 +1,26 @@
+{
+    "dataDiri" : {
+        "nama" : {
+            "awal" : "Andika",
+            "akhir" : "Saputra"
+        },
+        "jenisKelamin" : "Laki-laki",
+        "saudara" : {
+            "adikPerempuan" : "Adinda C. Maharani",
+            "adikLaki-laki" : "Ananda Fatir Ramadhan"
+        },
+        "orangTua" : {
+            "ayah" : "SUGIYANTO",
+            "ibu" : "Liana Bintang"
+        },
+        "alamat" : {
+            "desa" : "Jatimulyo",
+            "kecamatan" : "Jati Agung",
+            "kabupaten" : "Lampung Selatan"
+        },
+        "sosialMedia" : {
+            "facebook" : "Andika Saputra",
+            "instagram" : "andikaikc"
+        }
+    }
+}

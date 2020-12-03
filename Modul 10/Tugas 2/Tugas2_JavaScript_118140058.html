@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+      <h2 class="contoh">Heading dengan class="contoh"</h2>
+      <p class="contoh">Sebuah paragraf dengan class="contoh".</p>
+
+      Nama depan : <input name="fname" type="text" value="Andika"><br><br>
+
+      <div class="contoh">Elemen div pertama dengan class="contoh".</div>
+      <div class="contoh">Elemen div kedua dengan class="contoh".</div>
+
+      <p>Sebuah list barang:</p>
+      <ul>
+        <li>Buku</li>
+        <li>Pensil</li>
+        <li>Penghapus</li>
+      </ul>
+
+      <p>Klik tombol di samping untuk menambahkan warna background ke elemen pertama di dokumen dengan class="contoh". <button onclick="FungsiQuerySelector()">Klik</button></p>
+
+      <p>Klik tombol di samping untuk menganti warna tulisan ke semua elemen di dokumen dengan class="contoh". <button onclick="FungsiQuerySelectorAll()">Klik</button></p>
+
+      <p>Klik tombol di samping untuk mendapatkan nilai elemen pertama di dokumen dengan nama atribut adalah "fname". <button onclick="FungsiGetElementsByName()">Klik</button></p>
+
+      <p>Klik tombol di samping untuk merubah teks pada elemen div pertama dengan kelas="contoh" (indeks 0). <button onclick="FungsiGetElementsByClassName()">Klik</button></p>
+
+      <p>Klik tombol di samping untuk menampilkan innerHTML dari elemen li kedua (index 1). <button onclick="FungsiGetElementsByTagName()">Klik</button></p>
+
+      <p id="demo"></p>
+
+<script>
+      function FungsiQuerySelector() {
+        document.querySelector(".contoh").style.backgroundColor = "blue";
+      }
+      function FungsiQuerySelectorAll() {
+        var x, i;
+        x = document.querySelectorAll(".contoh");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.color = "red";
+        }
+      }
+      function FungsiGetElementsByName() {
+        var x = document.getElementsByName("fname")[0].value;
+        document.getElementById("demo").innerHTML = x;
+      }
+      function FungsiGetElementsByClassName() {
+        var x = document.getElementsByClassName("contoh");
+        x[0].innerHTML = "Hello World!";
+      }
+      function FungsiGetElementsByTagName() {
+        var x = document.getElementsByTagName("LI");
+        document.getElementById("demo").innerHTML = x[1].innerHTML;
+      }
+</script>
+
+</body>
+</html>

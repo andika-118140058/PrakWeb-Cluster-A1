@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<dataDiri>
+    <nama>
+        <awal>Andika</awal>
+        <akhir>Saputra</akhir>
+    </nama>
+    <jenisKelamin>Laki-laki</jenisKelamin>
+    <saudara>
+        <adikPerempuan>Adinda C. Maharani</adikPerempuan>
+        <adikLaki-laki>Ananda Fatir Ramadhan</adikLaki-laki>
+    </saudara>
+    <orangTua>
+        <ayah>SUGIYANTO</ayah>
+        <ibu>Liana Bintang</ibu>
+    </orangTua>
+    <alamat>
+        <desa>Jatimulyo</desa>
+        <kecamatan>Jati Agung</kecamatan>
+        <kabupaten>Lampung Selatan</kabupaten>
+    </alamat>
+    <sosialMedia>
+        <facebook>Andika Saputra</facebook>
+        <instagram>andikaikc</instagram>
+    </sosialMedia>
+</dataDiri>
